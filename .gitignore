@@ -3,3 +3,5 @@
 # Freecad
 *.FCStd1
 *.FCStd2
+CAD/*.dxf
+CAD/*.pdf
