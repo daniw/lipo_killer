@@ -32,7 +32,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
-IsVirtualBomDocumentRemoved=0
+IsVirtualBomDocumentRemoved=1
 OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
@@ -115,6 +115,34 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=POLLIPQN
+
+[Parameter1]
+Name=
+Value=
+
+[Parameter2]
+Name=Schema_Designer
+Value=daniw
+
+[Parameter3]
+Name=Project
+Value=LiPoKiller
+
+[Parameter4]
+Name=PCB_NAME
+Value=LK1-1
+
+[Parameter5]
+Name=PCB_Index
+Value=A
+
+[Parameter6]
+Name=Layout_Designer
+Value=daniw
+
+[Parameter7]
+Name=Author
+Value=Daniel Winz
 
 [Configuration1]
 Name=Sources
