@@ -14,6 +14,7 @@ Project Outputs*
 *.FCStd2
 CAD/*.dxf
 CAD/*.pdf
+CAD/*.step
 
 # datasheet
 datasheet/*

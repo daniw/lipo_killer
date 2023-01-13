@@ -15,13 +15,13 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Control_Module.OutJob
+Name=LiPoKiller.OutJob
 Description=
 TargetOutputMedium=Folder Structure
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=HP Color LaserJet Pro M478f-9f PCL-6 (V4) (Netzwerk)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -287,7 +287,7 @@ OutputEnabled14_OutputMedium3=4
 OutputEnabled14_OutputMedium4=0
 OutputDefault14=0
 Configuration14_Name1=OutputConfigurationParameter1
-Configuration14_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=False|IncludeElectricalPadHoles=False|IncludeFreePadHoles=False|ExportFoldedBoard=True|ExportFoldedBoardRate=100|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=1|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False|DocumentPath=C:\Daten\Daten\ele\inverter_reliant\15_Layout\Control_Module\Documents\Layout\Control_Module.PcbDoc
+Configuration14_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=100|ComponentSuffixType=1|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=True|SkipHidden=True|DocumentPath=C:\Daten\Daniel\ele\lipo_killer\PCB\LiPoKiller\LiPoKiller_Panel.PcbDoc
 OutputType15=Board Stack Report
 OutputName15=Board Stack Report
 OutputCategory15=Fabrication
@@ -350,7 +350,7 @@ PcbPrintPreferences18=SubsititueFont_Default=True|SubsititueFont_Serif=True|Subs
 [PublishSettings]
 OutputFilePath2=C:\Daten\Daten\ele\inverter_reliant\15_Layout\Control_Module\Project Outputs for Control_Module\Control-Module-Schematic.pdf
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for Control_Module
+OutputBasePath2=Project Outputs for LiPoKiller
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -375,9 +375,9 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Daten\Daten\ele\inverter_reliant\15_Layout\Control_Module\Project Outputs for Control_Module\
+OutputFilePath3=C:\Daten\Daniel\ele\lipo_killer\PCB\LiPoKiller\Project Outputs for LiPoKiller\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for Control_Module
+OutputBasePath3=Project Outputs for LiPoKiller
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
@@ -387,10 +387,10 @@ OutputFileName3=
 OutputFileNameMulti3=
 UseOutputNameForMulti3=1
 OutputFileNameSpecial3=
-OpenOutput3=1
+OpenOutput3=0
 OutputFilePath4=
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for Control_Module
+OutputBasePath4=Project Outputs for LiPoKiller
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
@@ -429,8 +429,8 @@ WmvQuality4=80
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Daten\Daten\ele\inverter_reliant\15_Layout\Control_Module\Project Outputs for Control_Module\Control-Module-Schematic.pdf
 OpenOutputs2=1
-RelativeOutputPath3=C:\Daten\Daten\ele\inverter_reliant\15_Layout\Control_Module\Project Outputs for Control_Module\
-OpenOutputs3=1
+RelativeOutputPath3=C:\Daten\Daniel\ele\lipo_killer\PCB\LiPoKiller\Project Outputs for LiPoKiller\
+OpenOutputs3=0
 AddToProject3=1
 TimestampFolder3=0
 UseOutputName3=0
